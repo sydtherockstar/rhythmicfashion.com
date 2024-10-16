@@ -1,0 +1,63 @@
+/* General styling */
+body {
+    font-family: 'Yrsa', sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    color: #e7996e; /* Default text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the container and adjust the layout */
+.container {
+    text-align: center;
+    margin-top: -500px; /* Adjust as necessary */
+}
+
+/* Navigation items styling */
+.nav-item {
+    font-size: 1.8em;
+    color: #e7996e; /* Set to default color */
+    margin: 10px 0; /* Margin on top and bottom for spacing */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Change to block to stack vertically */
+}
+
+/* Hover effect for navigation items */
+.nav-item:hover {
+    color: #f36f6f;
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Footer position and styling */
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 1.2em; /* Adjusted size for footer text */
+    color: #e7996e; /* Footer color */
+}
+
+/* Social links in the footer */
+.social-link {
+    color: #e7996e;
+    text-decoration: none;
+}
+
+/* Hover effect for social links */
+.social-link:hover {
+    color: #f36f6f;
+}
+
+/* Logo styling */
+.logo {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: auto;
+}

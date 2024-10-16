@@ -1,0 +1,71 @@
+body {
+    font-family: 'Yrsa', sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    color: #e7996e; /* Default text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: -500px; /* Adjust as necessary */
+}
+
+.team-role {
+    font-size: 1.8em;
+    color: #e7996e;
+}
+
+.team-member {
+    font-size: 1.5em;
+    color: #e7996e; /* Default color for the "and" */
+}
+
+.team-member a {
+    color: #c77447; /* Change the color of the names to white */
+}
+
+.twitter-link {
+    color: #e7996e;
+    text-decoration: none;
+}
+
+.twitter-link:hover {
+    color: #f36f6f;
+}
+
+.about-content {
+    margin-top: 20px;
+    color: #e7996e;
+    font-size: 1.5em; /* Larger text size */
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #e7996e;
+}
+
+.social-link {
+    color: #e7996e;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #f36f6f;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: auto;
+}

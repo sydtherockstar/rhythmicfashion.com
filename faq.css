@@ -1,0 +1,64 @@
+body {
+    font-family: 'Yrsa', sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    color: #e7996e; /* Default text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    min-height: 100vh; /* Ensure body takes up full viewport height */
+}
+
+.container {
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    flex: 1; /* Allow the container to grow and take available space */
+}
+
+.faq {
+    display: flex; /* Enable flexbox on the FAQ container */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+.question {
+    color:#e7996e; /* White color for questions */
+    margin: 10px 0; /* Spacing between questions */
+}
+
+.answer {
+    color: #e7996e; /* Default color for answers */
+    margin: 10px 0; /* Add margin for space below each answer */
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px; /* Add some padding for spacing */
+    color: #e7996e; /* Footer text color */
+    background: transparent; /* Remove background to eliminate dark border */
+    border: none; /* Ensure no border is applied */
+}
+
+.social-link {
+    color: #e7996e; /* Set the default link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Adjust size for the footer links */
+}
+
+.social-link:hover {
+    color: #f36f6f; /* Change color on hover */
+}
+
+
+.faq-item {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+    border-radius: 20px; /* Rounded corners */
+    padding: 15px; /* Add some padding for spacing */
+    margin: 10px 0; /* Spacing between each box */
+    color: white; /* Text color inside the box */
+    max-width: 600px; /* Set a maximum width for the box */
+    width: 90%; /* Allow the box to take up 90% of the container's width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}

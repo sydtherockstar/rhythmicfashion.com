@@ -1,0 +1,45 @@
+body {
+    font-family: 'Yrsa', sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    color: #e7996e; /* Default text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: -500px; /* Adjust as necessary */
+}
+
+.nav-item {
+    font-size: 1.8em;
+    color: #e7996e;
+    margin: 10px 0;
+    text-decoration: none;
+    display: block; /* Ensures vertical stacking */
+}
+
+.nav-item:hover {
+    color: #f36f6f; /* Highlight color on hover */
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #e7996e;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: auto;
+}
