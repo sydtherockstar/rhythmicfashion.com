@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -14,7 +13,7 @@ body {
 
 .container {
     text-align: center;
-    margin-top: -500px; /* Adjust as necessary */
+    padding-top: 5%; /* Adjust this value to position content lower */
 }
 
 .team-role {
@@ -28,7 +27,7 @@ body {
 }
 
 .team-member a {
-    color: #c77447; /* Change the color of the names to white */
+    color: #c77447; /* Change the color of the names */
 }
 
 .twitter-link {
