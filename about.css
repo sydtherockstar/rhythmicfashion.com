@@ -2,10 +2,11 @@ body {
     font-family: 'Yrsa', sans-serif;
     background-image: url('background.png');
     background-size: cover;
-    color: #e7996e; /* Default text color */
+    color: #e7996e;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -23,11 +24,11 @@ body {
 
 .team-member {
     font-size: 1.5em;
-    color: #e7996e; /* Default color for the "and" */
+    color: #e7996e;
 }
 
 .team-member a {
-    color: #c77447; /* Change the color of the names */
+    color: #c77447;
 }
 
 .twitter-link {
@@ -42,7 +43,7 @@ body {
 .about-content {
     margin-top: 20px;
     color: #e7996e;
-    font-size: 1.5em; /* Larger text size */
+    font-size: 1.5em;
 }
 
 footer {
