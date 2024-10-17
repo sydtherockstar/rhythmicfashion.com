@@ -2,19 +2,21 @@ body {
     font-family: 'Yrsa', sans-serif;
     background-image: url('background.png');
     background-size: cover;
+    background-attachment: fixed; /* Ensures background stays fixed */
     color: #e7996e; /* Default text color */
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between; /* Push footer to the bottom */
     height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .container {
     text-align: center;
-    margin-top: -500px; /* Adjust as necessary */
+    max-width: 100%; /* Prevents the container from exceeding the viewport width */
+    overflow: hidden; /* Ensures no overflow issues */
 }
 
 .nav-item {
@@ -30,11 +32,14 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 20px;
     text-align: center;
-    font-size: 1.2em;
-    color: #e7996e;
+    font-size: 1em;
+    padding: 10px; /* Add some padding for spacing */
+    color: #e7996e; /* Footer text color */
+    background: transparent; /* Remove background to eliminate dark border */
+    border: none; /* Ensure no border is applied */
+    width: 100%; /* Ensures footer spans full width */
+    margin-top: auto; /* Push footer to bottom */
 }
 
 .logo {
@@ -42,4 +47,18 @@ footer {
     margin: 10px auto;
     width: 400px;
     height: auto;
+}
+
+/* Prevent links from turning purple after clicking */
+a:link, a:visited {
+    color: #e7996e; /* Default link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f36f6f; /* Hover color */
+}
+
+a:active {
+    color: #f36f6f; /* Active color */
 }
